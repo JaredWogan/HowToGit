@@ -1,0 +1,28 @@
+https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+
+Windows + X + A to open powershell
+
+Invoke-Item - Abbreviated ii
+ii . opens file explorer in powershell
+
+git init
+Initializes a git repository in current working directory.
+
+git status
+Shows git files and current status
+
+git add <name>
+Adds/removes files to git
+
+git commit -m "message"
+
+git branch -M <branch>
+
+git remote add origin <link>
+git push -u origin main
+
+Inside git-bash
+cd ~/.ssh
+ssh-keygen -t rsa -C "your_email@example.com"
+cat id_rsa.pub
+Copy long string into github SSH keys
